@@ -1,0 +1,232 @@
+$primary: #e3e4e8;
+$secondary: #ec5b53;
+$light: #fff;
+$dark: #000;
+$font: #1f201d;
+
+
+
+@media (max-width: 900px) {
+    .section0{
+        header{
+            padding: 1rem;
+            width: 100%;
+            .logo{
+                font-size: 12px;
+            }
+            nav{
+                & .fa-xmark{
+                    display: block;
+                    color: $light;
+                    font-size: 1.6rem;
+                    text-align: right;
+                }
+                & .fa-bars{
+                    display: block;
+                    color: $light;
+                    background: $secondary;
+                    border-radius: 50%;
+                    height: 2rem;
+                    width: 2rem;
+                    text-align: center;
+                    padding-top: .5rem;
+                    position: absolute;
+                    left: 88%;
+                    top: 5%;
+                }
+                ul{
+                    height: 100vh;
+                    width: 200px;
+                    background: $secondary;
+                    position: fixed;
+                    left: -300px;
+                    top: 0;
+                    transition: 1s ease-in-out;
+                    padding: 2rem 1rem;
+                    z-index: 4;
+                    li{
+                        display: block;
+                        margin-top: 1rem;
+                        a{
+                            color: $light;
+                        }
+                    }
+                }
+            }
+            button{
+                display: none;
+            }
+        }
+        .navbar-cng{
+            padding: 1rem;
+            width: 100%;
+            .logo{
+                font-size: 12px;
+            }
+            nav{
+                & .fa-xmark{
+                    display: block;
+                    color: $light;
+                    font-size: 1.6rem;
+                    text-align: right;
+                }
+                & .fa-bars{
+                    display: block;
+                    color: $light;
+                    background: $secondary;
+                    border-radius: 50%;
+                    height: 2rem;
+                    width: 2rem;
+                    text-align: center;
+                    padding-top: .5rem;
+                    position: absolute;
+                    left: 88%;
+                    top: 30%;
+                }
+                ul{
+                    height: 100vh;
+                    width: 200px;
+                    background: $secondary;
+                    position: fixed;
+                    left: -300px;
+                    top: 0;
+                    transition: 1s ease-in-out;
+                    padding: 2rem 1rem;
+                    z-index: 4;
+                    li{
+                        display: block;
+                        margin-top: 1rem;
+                        a{
+                            color: $light;
+                        }
+                    }
+                }
+            }
+            button{
+                display: none;
+            }
+        }
+        .sect0{
+            margin: 0;
+            padding: 1rem;
+            .left{
+                margin-top: 10rem;
+                h1{
+                    font-size: 25px;
+                }
+                text-align: right;
+            }
+        }
+    }
+    .title{
+        h4{
+            font-size: 20px;
+        }
+        h1{
+            font-size: 25px;
+        }
+    }
+    .section2{
+        padding: 3rem 1rem;
+        .sect2{
+            display: grid;
+            grid-template-columns: repeat(1, 1fr);
+            .left{
+                width: 100%;
+                img{
+                    height: 58vh;
+                }
+            }
+            .right{
+                width: 100%;
+                h5{
+                    font-size: 16px;
+                }
+                h4{
+                    font-size: 20px;
+                }
+                .para{
+                    font-size: 15px;
+                }
+                .butt{
+                    display: grid;
+                }
+            }
+        }
+    }
+    .section3{
+        padding: 3rem 1rem;
+        .sect3{
+            display: grid;
+            grid-template-columns: repeat(1, 1fr);
+        }
+    }
+    .section4{
+        padding: 3rem 1rem;
+        .sect4{
+            display: grid;
+            grid-template-columns: repeat(1, 1fr);
+            .left{
+                width: 100%;
+                .card2{
+                    .box{
+                        padding: 2rem 1rem;
+                    }
+                    .side2{
+                        width: 70%;
+                    }
+                }
+            }
+            .right{
+                width: 100%;
+                .card2{
+                    .box{
+                        padding: 2rem 1rem;
+                    }
+                    .side2{
+                        width: 60%;
+                    }
+                }
+            }
+        }
+    }
+    .section5{
+        padding: 3rem 1rem;
+        .responsive{
+            .slide{
+                img{
+                    margin-left: 36%;
+                }
+            }
+        }
+    }
+    .section6{
+        padding: 3rem 1rem;
+        .sect6{
+            display: grid;
+            grid-template-columns: repeat(1, 1fr);
+            .left{
+                width: 98%;
+                .mail{
+                    width: 98%;
+                    .here{
+                        width: 95%;
+                        a{
+                            font-size: 12px;
+                        }
+                    }
+                }
+            }
+            .wrapper{
+                width: 93%;
+                h1{
+                    font-size: 18px;
+                }
+            }
+        }
+    }
+    footer{
+        padding: 1rem;
+
+    }
+}

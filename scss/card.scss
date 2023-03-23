@@ -1,0 +1,93 @@
+$primary: #e3e4e8;
+$secondary: #ec5b53;
+$light: #fff;
+$dark: #000;
+$font: #1f201d;
+$transit: .3s ease-in-out;
+
+
+.card{
+    height: auto;
+    padding: 4rem 1.5rem;
+    background: $primary;
+    border-radius: 5px;
+    transition: $transit;
+    .img{
+        margin-left: 35%;
+        img:nth-child(1){
+            position: absolute;
+            display: none;
+        }
+        img:nth-child(2){
+            position: absolute;
+        }        
+    }
+    &:hover{
+        background: $secondary;
+        h4{
+            color: $light;
+        }
+        p{
+            color: $light;
+        }
+        img:nth-child(1){
+            position: absolute;
+            display: block;
+        }
+        img:nth-child(2){
+            position: absolute;
+            display: none;
+        }      
+    }
+    h4{
+        margin-top: 5rem;
+        text-align: center;
+        font-size: 18px;
+        color: $dark;
+    }
+    p{
+        margin-top: 1rem;
+        text-align: center;
+        line-height: 1.5rem;
+        font-size: 14px;
+        color: $dark;
+        letter-spacing: 0.04em;
+    }
+}
+
+h4{
+    color: $dark;
+}
+
+h6{
+    color: $dark;
+}
+
+p{
+    color: $dark;
+}
+.card2{
+    margin-top: 3rem;
+    .box{
+        margin-top: 2rem;
+        width: 100%;
+        height: auto;
+        background: $primary;
+        padding: 2.5rem 2.5rem;
+        display: flex;
+        justify-content: space-between;
+        border-radius: 5px;
+        .side{
+            width: 30%;
+            h6{
+                margin-top: 1.5rem;
+                font-size: 15px;
+            }
+        }
+        .side2{
+            width: 70%;
+            border-left: 1px solid #ccc;
+            padding-left: 1rem;
+        }
+    }
+}

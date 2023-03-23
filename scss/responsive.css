@@ -1,0 +1,207 @@
+@media (max-width: 900px) {
+  .section0 header {
+    padding: 1rem;
+    width: 100%;
+  }
+  .section0 header .logo {
+    font-size: 12px;
+  }
+  .section0 header nav .fa-xmark {
+    display: block;
+    color: #fff;
+    font-size: 1.6rem;
+    text-align: right;
+  }
+  .section0 header nav .fa-bars {
+    display: block;
+    color: #fff;
+    background: #ec5b53;
+    border-radius: 50%;
+    height: 2rem;
+    width: 2rem;
+    text-align: center;
+    padding-top: 0.5rem;
+    position: absolute;
+    left: 88%;
+    top: 5%;
+  }
+  .section0 header nav ul {
+    height: 100vh;
+    width: 200px;
+    background: #ec5b53;
+    position: fixed;
+    left: -300px;
+    top: 0;
+    transition: 1s ease-in-out;
+    padding: 2rem 1rem;
+    z-index: 4;
+  }
+  .section0 header nav ul li {
+    display: block;
+    margin-top: 1rem;
+  }
+  .section0 header nav ul li a {
+    color: #fff;
+  }
+  .section0 header button {
+    display: none;
+  }
+  .section0 .navbar-cng {
+    padding: 1rem;
+    width: 100%;
+  }
+  .section0 .navbar-cng .logo {
+    font-size: 12px;
+  }
+  .section0 .navbar-cng nav .fa-xmark {
+    display: block;
+    color: #fff;
+    font-size: 1.6rem;
+    text-align: right;
+  }
+  .section0 .navbar-cng nav .fa-bars {
+    display: block;
+    color: #fff;
+    background: #ec5b53;
+    border-radius: 50%;
+    height: 2rem;
+    width: 2rem;
+    text-align: center;
+    padding-top: 0.5rem;
+    position: absolute;
+    left: 88%;
+    top: 30%;
+  }
+  .section0 .navbar-cng nav ul {
+    height: 100vh;
+    width: 200px;
+    background: #ec5b53;
+    position: fixed;
+    left: -300px;
+    top: 0;
+    transition: 1s ease-in-out;
+    padding: 2rem 1rem;
+    z-index: 4;
+  }
+  .section0 .navbar-cng nav ul li {
+    display: block;
+    margin-top: 1rem;
+  }
+  .section0 .navbar-cng nav ul li a {
+    color: #fff;
+  }
+  .section0 .navbar-cng button {
+    display: none;
+  }
+  .section0 .sect0 {
+    margin: 0;
+    padding: 1rem;
+  }
+  .section0 .sect0 .left {
+    margin-top: 10rem;
+    text-align: right;
+  }
+  .section0 .sect0 .left h1 {
+    font-size: 25px;
+  }
+  .title h4 {
+    font-size: 20px;
+  }
+  .title h1 {
+    font-size: 25px;
+  }
+  .section2 {
+    padding: 3rem 1rem;
+  }
+  .section2 .sect2 {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .section2 .sect2 .left {
+    width: 100%;
+  }
+  .section2 .sect2 .left img {
+    height: 58vh;
+  }
+  .section2 .sect2 .right {
+    width: 100%;
+  }
+  .section2 .sect2 .right h5 {
+    font-size: 16px;
+  }
+  .section2 .sect2 .right h4 {
+    font-size: 20px;
+  }
+  .section2 .sect2 .right .para {
+    font-size: 15px;
+  }
+  .section2 .sect2 .right .butt {
+    display: grid;
+  }
+  .section3 {
+    padding: 3rem 1rem;
+  }
+  .section3 .sect3 {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .section4 {
+    padding: 3rem 1rem;
+  }
+  .section4 .sect4 {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .section4 .sect4 .left {
+    width: 100%;
+  }
+  .section4 .sect4 .left .card2 .box {
+    padding: 2rem 1rem;
+  }
+  .section4 .sect4 .left .card2 .side2 {
+    width: 70%;
+  }
+  .section4 .sect4 .right {
+    width: 100%;
+  }
+  .section4 .sect4 .right .card2 .box {
+    padding: 2rem 1rem;
+  }
+  .section4 .sect4 .right .card2 .side2 {
+    width: 60%;
+  }
+  .section5 {
+    padding: 3rem 1rem;
+  }
+  .section5 .responsive .slide img {
+    margin-left: 36%;
+  }
+  .section6 {
+    padding: 3rem 1rem;
+  }
+  .section6 .sect6 {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .section6 .sect6 .left {
+    width: 98%;
+  }
+  .section6 .sect6 .left .mail {
+    width: 98%;
+  }
+  .section6 .sect6 .left .mail .here {
+    width: 95%;
+  }
+  .section6 .sect6 .left .mail .here a {
+    font-size: 12px;
+  }
+  .section6 .sect6 .wrapper {
+    width: 93%;
+  }
+  .section6 .sect6 .wrapper h1 {
+    font-size: 18px;
+  }
+  footer {
+    padding: 1rem;
+  }
+}/*# sourceMappingURL=responsive.css.map */

@@ -1,0 +1,63 @@
+$primary: #e3e4e8;
+$secondary: #ec5b53;
+$light: #fff;
+$dark: #000;
+$font: #1f201d;
+$transit: .3s ease-in-out;
+
+
+.responsive{
+    .slide{
+        text-align: center;
+        p{
+            color: $font;
+            font-size: 17px;
+            line-height: 1.5rem;
+            margin-bottom: 3rem;
+            letter-spacing: 0.03em;
+        }
+        img{
+            height: 15vh; 
+            border-radius: 100%; 
+            margin-left: 46%;
+        }
+        h4{
+            color: $font;
+            margin-top: 3rem;
+            font-size: 16px;
+            font-weight: 550;
+            letter-spacing: 0.03em;
+        }
+        h6{
+            color: $font;
+            font-size: 13px;
+            letter-spacing: 0.03em;
+            margin-top: .5rem;
+        }
+    }
+    .slick-dots{
+        display: -webkit-flex;
+        display: -moz-flex;
+        display: -ms-flex;
+        display: -o-flex;
+        display: flex;
+        justify-content: center;
+        gap: .5rem;
+        margin-top: 1rem;
+        button{
+            padding: .2rem;
+            height: .2rem;
+            width: .2rem;
+            border: 1px solid transparent;
+            background: $secondary;
+            color: transparent;
+            font-size: 16px;
+            cursor: pointer;
+            border-radius: 50%;
+        }
+    }
+    .slick-dots li.slick-active button{
+        color: transparent;
+        background: $primary;
+    }
+}
